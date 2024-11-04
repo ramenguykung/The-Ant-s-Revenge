@@ -188,7 +188,7 @@ public class SelectEnemy {
         buttonenemyextraenemy.setBounds(1500, 550, 350, 350);
         buttonenemyextraenemy.setBorder(BorderFactory.createLineBorder(Color.BLACK,2));
         buttonenemyextraenemy.setFocusable(false);
-        buttonenemyextraenemy.setEnabled(true);
+        buttonenemyextraenemy.setEnabled(false);
 
         textenemyextraenemy.setBackground(Color.WHITE);
         textenemyextraenemy.setHorizontalAlignment(JLabel.CENTER);
