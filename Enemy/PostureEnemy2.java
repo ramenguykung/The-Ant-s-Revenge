@@ -10,7 +10,7 @@ public class PostureEnemy2 {
     public PostureEnemy2() {
         attack = new ImageIcon(PostureEnemy2.class.getResource("/image/Enemy2Attack.gif")).getImage();
         stunt = new ImageIcon(PostureEnemy2.class.getResource("/image/Enemy2stunt.png")).getImage();
-        dead = new ImageIcon(PostureEnemy2.class.getResource("/image/Enemy2Dead.png")).getImage();
+        dead = new ImageIcon(PostureEnemy2.class.getResource("/image/Enemy2dead.png")).getImage();
         run = new ImageIcon(PostureEnemy2.class.getResource("/image/Enemy2Run.gif")).getImage();
     }
     public void draw(Graphics g, Enemy.Enemy2_Charactor enemy2, int x, int y, boolean Flipped) {
